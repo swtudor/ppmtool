@@ -1,7 +1,6 @@
 package com.studor.ppmtool.repositories;
 
 import com.studor.ppmtool.domain.Project;
-import com.studor.ppmtool.exceptions.ProjectIdException;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

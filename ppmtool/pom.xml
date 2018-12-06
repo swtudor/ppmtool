@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>ppmtool</name>
-    <description>Personal Project Mangagement Tool</description>
+    <projectDescription>Personal Project Mangagement Tool</projectDescription>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

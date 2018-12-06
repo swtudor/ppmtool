@@ -33,7 +33,7 @@ public class ProjectService {
         return projectRepository.findAll();
     }
 
-    public void deleteProjetByIdentifier(String projectId){
+    public void deleteProjectByIdentifier(String projectId){
         Project project = projectRepository.findByProjectIdentifier(projectId.toUpperCase());
 
         if(project == null){
